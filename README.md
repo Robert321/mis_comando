@@ -21,3 +21,8 @@ db.getCollection('impAfrActa').find({
   "log.est.nom": "EN_AFORO",
   "log.est.usu": { $ne: "BPM" }
 });
+
+1 CASO LAVENTE ABANDONO
+db.getCollection('impAbaTacExp').find({"data.datGen.numDim":"DI-2023-711-2105413"})
+
+payload.proBpm.fecFin=ISODate("2023-05-15T00:17:42.828-04:00")
